@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from sqlalchemy.orm import Session
 from app.models.stock import Stock
 import re
-
+ 
 
 def extract_float(text):
     """Extracts the first float value from a string using regex."""
