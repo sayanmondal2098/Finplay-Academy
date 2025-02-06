@@ -3,6 +3,7 @@ from app.routes.scenario_routes import scenario_router
 from app.routes.user_routes import user_router
 from app.routes.stock_routes import stock_router
 from app.routes.chatbot_routes import chatbot_router
+from app.routes.crypto_routes import crypto_router
 from app.database import engine, Base
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -25,3 +26,4 @@ app.include_router(user_router, prefix="/users", tags=["Users"])
 app.include_router(stock_router, prefix="/stocks", tags=["Stocks"])
 app.include_router(chatbot_router, prefix="/chatbot", tags=["Chatbot"])
 app.include_router(scenario_router, prefix="/scenarios", tags=["Scenarios"])
+app.include_router(crypto_router, prefix="/crypto", tags=["Crypto"])
