@@ -38,8 +38,6 @@ def scrape_stock_data(db: Session):
         try:
             symbol = columns[0].text.strip()
             name = columns[1].text.strip()
-
-            # ** Correct Column Mapping **
             price = extract_float(columns[3].text.strip())  
             change = extract_float(columns[4].text.strip())  
             percent_change = extract_float(columns[5].text.strip().replace('%', ''))  
