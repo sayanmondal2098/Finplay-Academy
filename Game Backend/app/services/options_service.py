@@ -12,14 +12,14 @@ def extract_float(text):
 
 
 def scrape_options_data(db: Session):
-    url = "https://finance.yahoo.com/markets/options/most-active"
+    url = "https://finance.yahoo.com/markets/options/most-active/?start=0&count=100"
     
     # Add headers to mimic a real browser
     headers = {"User-Agent": "Mozilla/5.0"}
     
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
-        return {"error": "Failed to fetch data"}
+        return {"error": f"Failed to fetch data, status code : {response.status_code}"}
     
     soup = BeautifulSoup(response.text, "html.parser")
     table_rows = soup.select("tbody tr")

@@ -7,5 +7,4 @@ options_router = APIRouter()
 
 @options_router.get("/scrape")
 def get_options_data(db: Session = Depends(get_db)):
-    print("Option hit!")
     return scrape_options_data(db)
