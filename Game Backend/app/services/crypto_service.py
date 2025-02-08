@@ -43,6 +43,6 @@ def scrape_crypto_data(db: Session):
         )
         db.merge(crypto)
         cryptos.append(crypto)
-    
+
     db.commit()
     return cryptos
