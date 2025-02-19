@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import OverviewPage from "./pages/OverviewPage";
-import GamePage from "./pages/GamePage"; 
+import GameStartPage from "./pages/GameStartPage"; 
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/overview" element={<OverviewPage />} />
-        <Route path="/game" element={<GamePage />} />
+        <Route path="/game" element={<GameStartPage />} />
       </Routes>
     </Router>
   );
