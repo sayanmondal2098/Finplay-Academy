@@ -1,7 +1,7 @@
 import React from "react";
 import {
     LineStyle, Timelapse, BarChartOutlined, MonetizationOn, ShoppingBasketTwoTone, RequestQuoteTwoTone,
-    ExitToApp
+    ExitToApp, LeaderboardTwoTone, LinkTwoTone, LocalLibraryTwoTone
 } from "@mui/icons-material";
 import "./sidebar.css";
 import { Link } from "react-router-dom";
@@ -58,7 +58,34 @@ export default function Sidebar() {
                      
                     </ul>
                 </div>
+
+                
+            <div className="sidebarMenu">
+                    <h3 className="sidebarTitel">
+                        Learning Module
+                    </h3>
+                    <ul className="sidebarList">
+                        <Link to="/dashboard" className="link">
+                            <li className="sidebarListItem">
+                                <LocalLibraryTwoTone className="sidebarIcon" />
+                                Basic Tutorial
+                            </li>
+                        </Link>
+                        <li className="sidebarListItem">
+                            <LinkTwoTone className="sidebarIcon" />
+                            External Links
+                        </li>
+                        <li className="sidebarListItem">
+                            <LeaderboardTwoTone className="sidebarIcon" />
+                            Leader Board
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+
+
+
             <div className="sidebarFooter">
                 <div className="sidebarFooterWrapper">
                     Hello, Player
