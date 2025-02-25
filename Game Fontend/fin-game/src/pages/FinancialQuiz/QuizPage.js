@@ -54,7 +54,7 @@ export default function QuizPage() {
         <div className="quiz-container">
             <div className="progress-bar">
                 {[...Array(quizData.length)].map((_, i) => (
-                    <div key={i} style={{ background: i <= questionIndex ? "#FFC107" : "#E0E0E0" }}></div>
+                    <div key={i} style={{ background: i <= questionIndex ? "#007BFF" : "#E0E0E0" }}></div>
                 ))}
             </div>
             

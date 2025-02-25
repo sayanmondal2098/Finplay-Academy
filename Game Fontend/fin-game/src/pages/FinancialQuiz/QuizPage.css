@@ -4,7 +4,7 @@
     max-width: 800px;
     margin: auto;
     padding: 60px;
-    background: #FFFCF5;
+    background: #fcfcfb;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
     text-align: center;
@@ -20,7 +20,7 @@
     height: 6px;
     width: 120px;
     margin: 0 5px;
-    background: #FFC107;
+    background: #208cd4;
     border-radius: 10px;
 }
 
@@ -30,7 +30,7 @@
     align-items: center;
     padding: 20px 0;
     font-weight: bold;
-    color: #555;
+    color: #446481;
 }
 
 .quiz-content {
@@ -50,17 +50,17 @@
     align-items: center;
     padding: 18px;
     margin: 12px 0;
-    border: 2px solid #DDD;
+    border: 2px solid #9eb2c5;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
     font-size: 18px;
-    background: #F8F9FA;
+    background: #ffffff;
 }
 
 .options label:hover, .options label.selected {
-    background: #FFEBB2;
-    border-color: #FF9900;
+    background: #007BFF;
+    border-color: #b1c3d47a;
 }
 
 .nav-buttons {
@@ -80,12 +80,12 @@
 }
 
 .previous-button {
-    background: #E0E0E0;
+    background: #e0e0e0f3;
     color: #333;
 }
 
 .previous-button:hover {
-    background: #BDBDBD;
+    background: #8ebef1;
 }
 
 .next-button {
