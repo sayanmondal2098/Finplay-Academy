@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: inherit;
+  }
+
+    .quizContainer{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .quizQuestion{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .quizAnswer{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .financialQuiz{
+        flex: 5;
+    }

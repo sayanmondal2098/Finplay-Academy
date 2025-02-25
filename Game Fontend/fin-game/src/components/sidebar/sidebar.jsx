@@ -37,7 +37,7 @@ export default function Sidebar() {
                         Quick Action
                     </h3>
                     <ul className="sidebarList">
-                        <Link to="/" className="link">
+                        <Link to="/FinancialQuiz" className="link">
                             <li className="sidebarListItem">
                                 <MonetizationOn className="sidebarIcon" />
                                 Finencial Quizes
@@ -49,7 +49,7 @@ export default function Sidebar() {
                                 Price Checking Tool
                             </li>
                         </Link>
-                        <Link to="/" className="link">
+                        <Link to="/marketPlace" className="link">
                             <li className="sidebarListItem">
                                 <ShoppingBasketTwoTone className="sidebarIcon" />
                                 Market Place
