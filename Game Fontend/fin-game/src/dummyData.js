@@ -311,7 +311,7 @@ export const financialTopics = [
       title: "Understanding Credit Scores",
       description: "Discover how credit scores work and how to improve yours.",
       views: "4,500",
-      contributors: ["Mary", "Steve"],
+      contributors: ["Mike", "Steve"],
       link: "https://example.com/understanding-credit-scores",
       tags: ["Credit Score", "Loans", "Financial Health"]
   },

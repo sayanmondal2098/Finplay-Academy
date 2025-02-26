@@ -7,7 +7,8 @@ export default function KnowledgeBase() {
 
     const filteredTopics = financialTopics.filter(topic =>
         topic.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        topic.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+        topic.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        topic.contributors.some(contributor => contributor.toLowerCase().includes(searchTerm.toLowerCase()))
     );
 
     return (
