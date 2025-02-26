@@ -296,27 +296,31 @@ export const financialTopics = [
       description: "Learn the basics of budgeting and how to manage your finances effectively.",
       views: "5,200",
       contributors: ["Alice", "Bob"],
-      link: "https://example.com/budgeting-101"
+      link: "https://example.com/budgeting-101",
+      tags: ["Budgeting", "Finance", "Money Management"]
   },
   {
       title: "Investing for Beginners",
       description: "Understand the fundamentals of investing and how to grow your wealth.",
       views: "3,900",
       contributors: ["John", "Doe"],
-      link: "https://example.com/investing-for-beginners"
+      link: "https://example.com/investing-for-beginners",
+      tags: ["Investing", "Wealth Growth", "Stock Market"]
   },
   {
       title: "Understanding Credit Scores",
       description: "Discover how credit scores work and how to improve yours.",
       views: "4,500",
       contributors: ["Mary", "Steve"],
-      link: "https://example.com/understanding-credit-scores"
+      link: "https://example.com/understanding-credit-scores",
+      tags: ["Credit Score", "Loans", "Financial Health"]
   },
   {
       title: "Saving for Retirement",
       description: "Plan ahead for a secure financial future with smart retirement saving strategies.",
       views: "2,800",
       contributors: ["Sarah", "Mike"],
-      link: "https://example.com/saving-for-retirement"
+      link: "https://example.com/saving-for-retirement",
+      tags: ["Retirement", "Savings", "Future Planning"]
   }
 ];
