@@ -6,6 +6,7 @@ import OverviewPage from "./pages/OverviewPage";
 import GameStartPage from "./pages/GameStartPage"; 
 import Dashboard from "./pages/Dashboard";
 import FinancialQuiz from "./pages/FinancialQuiz/FinancialQuiz";
+import ExternalLinkPage from "./pages/ExternalLink/ExternalLinkPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/game" element={<GameStartPage />} />
         <Route path="/financialQuiz" element={<FinancialQuiz />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/externalLink" element={<ExternalLinkPage />} />
 
       </Routes>
     </Router>

@@ -71,10 +71,12 @@ export default function Sidebar() {
                                 Basic Tutorial
                             </li>
                         </Link>
+                        <Link to="/externalLink" className="link">
                         <li className="sidebarListItem">
                             <LinkTwoTone className="sidebarIcon" />
                             External Links
                         </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <LeaderboardTwoTone className="sidebarIcon" />
                             Leader Board
