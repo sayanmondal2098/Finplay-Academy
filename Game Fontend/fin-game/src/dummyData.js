@@ -324,3 +324,15 @@ export const financialTopics = [
       tags: ["Retirement", "Savings", "Future Planning"]
   }
 ];
+
+
+
+export const leaderboardData = [
+  { rank: 1, player: "marion_stiedemann", won: 2.00, trades: 5, winRate: "34.07%", volume: 0.56 },
+  { rank: 2, player: "shannon_kautzer", won: 2.00, trades: 5, winRate: "34.07%", volume: 0.56 },
+  { rank: 3, player: "arthur_grimes", won: 2.00, trades: 5, winRate: "34.07%", volume: 0.56 },
+  { rank: 4, player: "bernadette_mclaughlin", won: 2.00, trades: 5, winRate: "34.07%", volume: 0.56 },
+  { rank: 5, player: "alberta_spencer", won: 2.00, trades: 5, winRate: "34.07%", volume: 0.56 },
+  { rank: 6, player: "leo_ruecker", won: 2.00, trades: 5, winRate: "34.07%", volume: 0.56 },
+  { rank: 7, player: "rudolph_boehm", won: 2.00, trades: 5, winRate: "34.07%", volume: 0.56 }
+];
